@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+body {
+    font-family: "Inter Tight", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 84px;
+    /* border: 1px solid; */
+    align-items: center;
+    Padding-left: 80px;
+    padding-right: 80px;
+    flex-wrap: wrap;
+    background-color: #F5F7FA
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 588px;
+    margin-right: 60px;
+}
+
+.nav-links a {
+    color: #000000;
+}
+
+.login {
+    color: #4CAF4F;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.header_button {
+    color: white;
+    background-color: #4CAF4F;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+/* HERO SECTION STYLES */
+
+main {
+    background-color: #f5f7fa;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    height: calc(100vh - 84px);
+    align-items: center;
+}
+
+.hero-left {
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.hero-span {
+    color: #4CAF4F;
+}
+
+.hero-left-P {
+    font-size: 16px;
+    color: #717171;
+    margin: 20px 0;
+}
+
+.butto-green {
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 128px;
+    height: 52px;
+}
+
+/* OUR CLIENT SECTION STYLES */
+
+.ourClient {
+    text-align: center;
+    background-color: white;
+    padding: 30px 0;
+    /*height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.firstCompanyLogos{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 0 120px;
+    width: 100%;
+}
+
+.sect-h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sect-p {
+    font-size: 14px;
+    color: #717171;
+    text-align: center;
+}
+
+.card-h3 {
+    font-size:  28px;
+    color: #4d4d4d;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card-p {
+    font-size: 14px;
+    color: #717171;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* OUR MANAGE SECTION STYLES */
+
+.manage {
+    padding: 20px 120px;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members > div {
+    height: 280px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 32px;
+    width: 299px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #ABBED1;
+    cursor: pointer;
+}
+
+.members > div:hover {
+    box-shadow: 0px 4px 4px 0px #ABBED1;
+}
+
+/* THE UNSEEN SECTION STYLING */
+
+.theUnseen-section {
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.theUnseen-right {
+    width: 601px;
+    padding-right: 20px;
+}
+
+.unSeen-p {
+    font-size: 14px;
+    color: #717171;
+    line-height: 20px;
+    margin-bottom:14px;
+}
+
+.unSeen-h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* HELPING SECTION STYLING */
+
+.helping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    height: 288px;
+}
+
+.helping > .help-section {
+    align-items:
+}
+
+.helping > .statistic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 540px;
+    /* border: 1px solid; */
+    height: 160px;
+    row-gap: 30px;
+}
+
+.helping > .statics > .member-stat {
+    /* border: 1px solid; */
+    /* display: flex; */
+    align-items: center;
+    height: 60px;
+    width: 255px;
+    gap: 20px;
+}
+
+.helping > .statics > .member-stat p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}
+
+.helping > .statics > .member-stat h3 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #4d4d4d;
+}
+
+.helping h2 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #4d4d4d;
+}
+
+.helping p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #18191f;
+
+}
+
+.helping h2 > span {
+    color: #4CAF4F;
+}
